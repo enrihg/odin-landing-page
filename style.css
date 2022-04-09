@@ -3,6 +3,35 @@ body {
   flex-direction: column;
 }
 
+.section1 {
+  background-color: #1F2937;
+  padding: 0 150px 50px 150px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  color:#F9FAF8;
+}
+
+.header-right {
+  display: flex;
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #E5E7EB;
+  font-weight: 18px; /*no funciona*/
+  text-decoration: none;
+}
+
 .footer {
   background-color: #1F2937;
   position: fixed;
