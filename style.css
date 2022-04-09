@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #1F2937;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  color: #E5E7EB;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
