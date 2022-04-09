@@ -32,6 +32,42 @@ a {
   text-decoration: none;
 }
 
+.title {
+  display: flex;
+  padding: 75px 0;
+}
+
+h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight:bolder; /*no funciona*/
+  margin-top: 0;
+}
+
+.title p {
+  color:#E5E7EB;
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-style: none;
+  border-radius: 5px;
+  padding: 3px 15px;
+}
+
+.placeholder {
+  color: #F9FAF8;
+  background-color: gray; /*cambiar*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+
 .footer {
   background-color: #1F2937;
   position: fixed;
