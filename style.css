@@ -1,3 +1,7 @@
+* {
+  font-family: 'Roboto', monospace;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -40,7 +44,7 @@ a {
 h1 {
   color: #F9FAF8;
   font-size: 48px;
-  font-weight:bolder; /*no funciona*/
+  font-weight:800;
   margin-top: 0;
 }
 
@@ -80,7 +84,7 @@ button {
 h2 {
   color: #1F2937;
   font-size: 36px;
-  font-weight: bolder; /*no funicona*/
+  font-weight: 800;
   text-align: center;
 }
 
@@ -99,20 +103,38 @@ h2 {
   text-align: center;
 }
 
-
-
-
-
-
-
 .section3 {
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 175px;
 }
+
+blockquote {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+cite {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: right;
+  font-style: normal;
+  padding-right: 75px;
+}
+
+
+
+
+
+
 
 .footer {
   background-color: #1F2937;
-  /*position: fixed;*/
-  /*bottom: 0;*/
   left: 0;
   right: 0;
   padding: 15px;
