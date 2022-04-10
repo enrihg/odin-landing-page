@@ -67,11 +67,52 @@ button {
   align-items: center;  
 }
 
+.section2 {
+  margin-bottom: 60px;
+}
+
+.section2-container {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+}
+
+h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder; /*no funicona*/
+  text-align: center;
+}
+
+.info {
+  max-width: 180px;
+}
+
+.square-blue {
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 8px;
+  width: 170px;
+}
+
+.text {
+  text-align: center;
+}
+
+
+
+
+
+
+
+.section3 {
+  background-color: #E5E7EB;
+}
 
 .footer {
   background-color: #1F2937;
-  position: fixed;
-  bottom: 0;
+  /*position: fixed;*/
+  /*bottom: 0;*/
   left: 0;
   right: 0;
   padding: 15px;
