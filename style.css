@@ -127,17 +127,42 @@ cite {
   padding-right: 75px;
 }
 
+.blue-box {
+  background-color:#3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px;
+  padding: 30px 100px;
+  border-radius: 8px;
+}
 
+h3 {
+  color: #F9FAF8;
+  font-size: 24px;
+  margin-bottom: 0;
+}
 
+.blue-box p {
+  color: #E5E7EB;
+  margin-top: 0;
+}
 
-
-
+.blue-box button {
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: 600;
+  border-style: solid;
+  border-color: #F9FAF8;
+  border-radius: 8px;
+  padding: 10px 30px;
+}
 
 .footer {
   background-color: #1F2937;
   left: 0;
   right: 0;
-  padding: 15px;
+  padding: 25px;
   color: #E5E7EB;
   font-size: 18px;
   display: flex;
